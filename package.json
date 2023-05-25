@@ -1,0 +1,21 @@
+{
+  "name": "express-open-api",
+  "version": "0.0.1",
+  "engines": {
+    "node": "^16",
+    "npm": "*"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-openapi": "*",
+    "swagger-ui-express": "*",
+    "morgan": "*"
+  },
+  "devDependencies": {
+    "debug": "*"
+  }
+}
