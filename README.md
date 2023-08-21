@@ -25,7 +25,7 @@ An external node has an HTTP server that provides the following API after regist
 * POST `/node/:id/config` updated the configuration of the node instance with the give id.
 * POST `/node/:id/next` trigger the execution of a node instance.
 * POST `/node/:id/remove` remove a node instance, called when a node instance is removed from a workflow definition.
-* GET` /health` heartbeat to check that the node is alive.
+* GET `/health` heartbeat to check that the node is alive.
 
 Proxeus core will provide the following API to external nodes:
 
