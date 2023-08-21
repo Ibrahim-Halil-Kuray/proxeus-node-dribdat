@@ -37,7 +37,7 @@ module.exports = function () {
         schema: {
           type: "array",
           items: {
-            $ref: "#/definitions/ExternalNode",
+            $ref: "#/components/schemas/ExternalNode",
           },
         },
       },
@@ -53,7 +53,7 @@ module.exports = function () {
         in: "body",
         name: "node",
         schema: {
-          $ref: "#/definitions/ExternalNode",
+          $ref: "#/components/schemas/ExternalNode",
         },
       },
     ],
@@ -78,7 +78,7 @@ module.exports = function () {
         in: "body",
         name: "node",
         schema: {
-          $ref: "#/definitions/ExternalNode",
+          $ref: "#/components/schemas/ExternalNode",
         },
       },
     ],
